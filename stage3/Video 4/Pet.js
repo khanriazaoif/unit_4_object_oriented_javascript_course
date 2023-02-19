@@ -5,3 +5,9 @@ class Pet {
     this.breed = breed;
   }
 }
+
+const rose = new Pet('dog', 10, 'boxer');
+const jax = new Pet('dog', 2, 'labradoodle');
+const belle = new Pet('dog', 1, 'labradoodle');
+
+console.log(rose);
